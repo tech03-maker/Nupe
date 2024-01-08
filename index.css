@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.head {
+  border-radius: 5px;
+}
+.pri {
+  border-radius: 5px;
+}
+.sec {
+  border-radius: 5px;
+}
+
+button {
+  text-align: left;
+  width: 35%;
+  border: 1px solid grey;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+button:focus {
+  background-color: rgb(52, 156, 52);
+  color: white;
+}
+
+.right a {
+  color: black;
+}
+
+.right a:hover {
+  text-decoration: none;
+}
+
+.side-text {
+  font-size: 15px;
+}
+
+.sec p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024) {
+  button {
+    width: 100%;
+  }
+}
